@@ -50,7 +50,7 @@ io.on('connection', socket => {
 const publicPath = path.join(__dirname + '/../public');
 app.use(express.static(publicPath));
 
-const port = process.env.NODE_ENV || 5000;
+const port = process.env.PORT || 5000;
 server.listen(port, () => console.log(`App is running on port ${port}`));
 
 // Design Pattern Observer (subscriber, publisher)
