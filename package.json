@@ -1,0 +1,16 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "start:watch": "nodemon ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.5",
+    "socket.io": "^2.3.0"
+  }
+}
